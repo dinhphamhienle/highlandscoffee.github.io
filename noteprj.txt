@@ -1,0 +1,17 @@
+slide thuyết trình
+
+- đúng chính tả
+- đồng nhất hình ảnh, font chữ
+- phải có hình ảnh sản phẩm
+
+cấu trúc
+- giới thiệu: bản thân, tên dự án
+- ý tưởng dự án: vì sao lại nghĩ ra / làm chủ đề này?...
+- lợi ích sản phẩm: ôn tập và vận dụng kiến thức được giới thiệu, cải thiện kĩ năng lập trình, xả stress,...
+- quá trình làm: 
++ tuần 1: lên ý tưởng; tìm kiếm template, hình ảnh, font; dựng base dự án,...
++ tuần 2, 3: thực hành xây dựng dự án, xây dựng những phần chính,...
++ tuần 4: hoàn thiện sản phẩm
+- demo sản phẩm:
+- trả lời câu hỏi: giám khảo hỏi - we answer
+- tổng kết, cảm ơn

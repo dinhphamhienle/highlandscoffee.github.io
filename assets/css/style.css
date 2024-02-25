@@ -1,0 +1,569 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&family=Poppins:wght@200;300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-color: #333333;
+    --primary-color: #B22830;
+    --brown-color: #53382C;
+    --white-color: #ffffff;
+    --light-gray-color: #b8b8b8;
+    --dark-gray-color: #555555;
+    --beige-color: rgb(241, 188, 122);
+    --dark-red-color: rgb(136, 24, 30);
+    --yellow-beige-color: #CC9554;
+}
+
+html {
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: unset;
+    text-decoration: none;
+}
+
+p {
+    color: var(--text-color);
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: var(--primary-color);
+    padding-top: 20px;
+    border-top: solid 9px var(--brown-color);
+
+}
+
+.header .logo {
+    width: 110px;
+    height: 84.25px;
+}
+
+.header .nav {
+    justify-content: space-evenly;
+}
+
+.header .nav .searchbox {
+    display: flex;
+    justify-content: right;
+    margin: 0 5px;
+    align-items: center;
+}
+
+.header .nav .searchbox input{
+    height: 30px;
+    width: 230px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    padding: 3px 7px;
+}
+
+.header .nav .searchbox i {
+    width: 30px;
+    height: 30px;
+    background-color: var(--white-color);
+    color: var(--light-gray-color);
+    padding: 7px;
+    margin-right: 13px;
+}
+
+.header .nav .searchbox .flag {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header .nav .searchbox .flag img {
+    margin-left: 10px;
+}
+
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+    font-family: 'Kanit', sans-serif;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 30px;
+
+}
+
+.thucdon {
+    background-color: var(--brown-color);
+}
+
+.khampha {
+    background-color: var(--brown-color);
+}
+
+li {
+    padding: 10px;
+    margin: 0 10px;
+}
+
+ul :hover {
+    background-color: var(--brown-color);
+    transition: 0.4s;
+}
+
+.wrapper img {
+    width: 100%;
+}
+
+.wrapper .images img {
+    margin-top: -7px;
+}
+
+.wrapper .info .maps .maps-text {
+    margin-top: -430px;
+    margin-left: 50px;
+    color: var(--white-color);
+    text-transform: uppercase;
+}
+
+.wrapper .info .maps .maps-text .address {
+    width: 50%;
+    padding-right: 20px;
+    margin-left: 50%;
+}
+
+.wrapper .info .maps .maps-text .address h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.wrapper .info .maps .maps-text .address h1 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.wrapper .info .maps .maps-text .address .maps-info {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.wrapper .info .maps .maps-text .address :hover {
+    color: var(--beige-color);
+    transition: 0.4s;
+}
+
+.wrapper .info {
+    display: flex;
+    margin: -7px 0;
+}
+
+.wrapper .info img {
+    height: 440px;
+}
+
+.wrapper .info .news {
+    width: 50%;
+}
+
+.wrapper .info .news .news-banner{
+    width: 100%;
+}
+
+.wrapper .info .news .news-text {
+    padding: 7px;
+    margin-top: -440px;
+}
+
+.wrapper .info .news .news-text h2 {
+    padding-left: 55px;
+    text-transform: uppercase;
+    color: var(--text-color);
+    margin: 9px;
+}
+
+.input-box {
+    display: flex;
+    justify-content: center;
+}
+
+.input-box input{
+    width: 400px;
+    height: 40px;
+    outline: none;
+    border: none;
+    padding: 3px 9px;
+}
+
+.input-box .button i {
+    padding-right: 3px;
+}
+
+.input-box .button {
+    display: flex;
+    justify-content: center;
+    width: 130px;
+    height: 40px;
+    align-items: center;
+    color: var(--white-color);
+    background-color: var(--brown-color);
+    font-size: 16px;
+}
+
+.input-box .button:hover{
+    background-color: var(--primary-color);
+    transition: 0.4s;
+}
+
+.news .news-text .news-item {
+    display: flex;
+    justify-content: left;
+    width: 70%;
+    margin-left: 70px;
+}
+
+.news .news-text .news-item img {
+    width: 120px;
+    height: 80px;
+    margin: 0 19px 19px 0;
+}
+
+.news .news-text .news-item img:hover {
+    overflow-clip-margin: content-box;
+	overflow: clip;
+}
+
+.news-item .news-info {
+    color: var(--text-color);
+}
+
+.news-item .news-info .news-title:hover{
+    color: var(--primary-color);
+}
+
+.container {
+    width: 70%;
+    margin: 70px;
+
+}
+
+.container h1 {
+    text-transform: uppercase;
+    margin: 13px 0;
+    color: var(--brown-color);
+    font-size: 39px;
+}
+
+
+.container h2 {
+    text-transform: uppercase;
+    margin: 13px 0;
+    color: var(--brown-color);
+    font-size: 28px;
+}
+
+
+.container p {
+    color: var(--text-color);
+    font-size: 15px;
+}
+
+.product-row {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px -30px;
+    text-align: center;
+    color: var(--brown-color);
+}
+
+.product-row .product-item {
+    align-items: center;
+
+}
+
+.product-row .product-item h3{
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+.product-row .product-item .img-border {
+    padding: 30px;
+    border: solid 1px var(--light-gray-color);
+    width: 270px;
+}
+
+.product-row .product-item .img-border img{
+    width: 180px;
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+.product-row .product-item img:hover {
+    transform: scale(1.07);
+}
+
+
+.discover {
+    width: 100%;
+    background-image: url(nen1.png) url(nen2.png) url(nen3.png) url(nen4.png);
+    background-size: cover;
+    background-position: center;
+    margin-top: -25px;
+}
+
+.discover img {
+    height: 400px;
+}
+
+.discover .discover-item1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    align-items: center;
+    background-image: url(https://www.highlandscoffee.com.vn/vnt_upload/cake/SPECIALTYTEA/MODULE_TRA.png);
+
+}
+
+.discover .discover-item2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    background-image: url(https://www.highlandscoffee.com.vn/vnt_upload/cake/SPECIALTYTEA/MODULE_TRA.png);
+}
+
+.discover-item2 .discover-item-text {
+    text-align: right;
+}
+
+.discover .discover-item3 {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    background-image: url(https://www.highlandscoffee.com.vn/vnt_upload/cake/STANDARDMENU/Untitled-1-03.png);
+}
+
+.discover .discover-item4 {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    background-image: url(https://www.highlandscoffee.com.vn/vnt_upload/cake/FOODMENU/Untitled-1-04.png);
+}
+
+.discover-item4 .discover-item-text {
+    text-align: right;
+}
+
+.discover-item-text {
+    width: 585px;
+}
+
+.discover-item-text h1 {
+    color: var(--yellow-beige-color);
+    font-size: 45px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.discover-item-text h1:hover {
+    color: var(--primary-color);
+    transition: 0.7s;
+}
+
+.discover-item-text p {
+    font-size: 18px;
+    color: var(--yellow-beige-color);
+    margin-bottom: 20px;
+}
+
+.discover-item-text button {
+    border: solid 1px var(--yellow-beige-color);
+    border-radius: 3px;
+    width: 275px;
+    height: 40px;
+    outline: none;
+    background-color: transparent;
+    font-size: 16px;
+    color: var(--yellow-beige-color);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.discover-item-text button:hover {
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    transition: 0.7s;
+}
+
+
+
+
+
+
+.footer {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 60px;
+    padding: 0 130px;
+    background-color: var(--brown-color);
+    margin-top: 35px;    
+}
+
+.footer span {
+    color: var(--white-color);
+    font-size: 13px ;
+}
+
+.footer .link {
+    display: flex;
+    align-items: center;
+    color: var(--white-color);
+    padding: 13px 0;
+    margin: 0 33px;
+    font-size: 12px;
+}
+
+.footer .link :hover{
+    color: var(--beige-color);
+    transition: 0.4s;
+}
+
+.footer .link i {
+    margin: 5px;
+}
+
+
+.footer .app {
+    display: flex;
+    justify-content: left;
+}
+
+.footer a {
+    background-color: var(--white-color);
+    width: 25px;
+    height: 25px;
+    color: var(--brown-color);
+    text-align: center;
+    margin: 7px;
+}
+
+.footer .app a:hover {
+    transform: translateY(-1px);
+    transition: 0.4s;
+}
+
+.popup-form {
+    width: 600px;
+    height: 450px;
+    background-color: var(--primary-color);
+    border: solid 5px var(--white-color);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    animation: showPopup 0.6s ease;
+
+}
+
+.popup-form .x {
+    background-color: var(--white-color);
+    color: var(--dark-gray-color);
+    width: 20px;
+    height: 20px;
+    border: none;
+    outline: none;
+    position: absolute;
+    right: 0;
+    z-index: 2;
+
+}
+
+.popup-form img {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.popup-form h1 {
+    color: var(--white-color);
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.popup-form .form-input label {
+    color: var(--white-color);
+    width: 100px;
+    height: 27px;
+    margin-top: 10px;
+	float: left;
+    text-align: right;
+}
+
+.popup-form .form-input input {
+    outline: none;
+    border: none;
+    width: 400px;
+    height: 27px;
+    margin-top: 10px;
+    margin-right: 70px;
+    float: right;
+    padding: 3px 9px;
+}
+
+.popup-form span {
+    color: var(--white-color);
+    margin: 10px 120px 0;
+    font-size: 12px;
+}
+
+.popup-form .btn {
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 40px;
+    font-size: 22px;
+    color: var(--white-color);
+    background-color: var(--brown-color);
+    text-transform: uppercase;
+    margin: 20px 120px 0;
+}
+
+.popup-form .btn:hover {
+    background-color: var(--dark-red-color);
+    transition: 0.4s;
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    background-color: rgba(0,0,0,0.5);
+}
+
+@keyframes showPopup {
+    0% {
+        transform: scale(0.4);
+        transform: translateY(-100px);
+    }
+    100% {
+        transform: scale(1);
+        transform: translateY(0);
+    }
+}
